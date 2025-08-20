@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    /* background-size:contain; */
+}
+
+#header1 {
+    margin-top: 15%;
+    font-size: 50px;
+}
+
+#header1:hover {
+    color: #2cc111;
+}
+
+#hidden-p {
+    font-size: 25px;
+}
+
+#btn1 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid #39FF14;
+    border-radius: 15px;
+    /* background-image: url("URA.png");
+    background-size: cover;
+    color: beige; */
+    padding: 5px;
+    margin: 3px;
+}
+
+#btn1:hover {
+    background-color: #39FF14;
+}
+
+#btn1:active {
+    background-color: #aa2c8c;
+    border: 3px solid #830b67
+}
+
+#img1 {
+    height: 300px;
+    justify-content: center;
+    position: flex;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#img1:hover {
+    cursor:grab;
+}
