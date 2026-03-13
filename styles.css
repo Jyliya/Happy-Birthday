@@ -1,5 +1,5 @@
 body {
-    background-image: url("Happy-Birthday/photos/bg.avif");
+    background-image: url("photos/bg.avif");
     background-size: 500px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -84,7 +84,7 @@ button:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("Happy-Birthday/photos/confetti2.gif");
+    background-image: url("photos/confetti2.gif");
     z-index: -1;
     display: none;
 }
@@ -127,3 +127,4 @@ button:hover {
     }
 
 }
+
