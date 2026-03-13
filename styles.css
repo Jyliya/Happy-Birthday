@@ -1,0 +1,131 @@
+body {
+    /* background-color: lemonchiffon; */
+    background-image: url("photos/bg.avif");
+    background-size: 500px;
+    /* background-repeat: repeat-y; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
+    position: absolute;
+    margin: auto;
+    /* justify-content: center; */
+    max-width: max-content;
+    max-height: max-content;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+p, pre {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#signature {
+    text-align: right;
+}
+
+#card {
+    background-color: rgba(255, 255, 255, 0.927);
+    width: fit-content;
+    max-width: 45%;
+}
+
+img {
+    border-radius: 10px;
+    margin: auto;
+}
+
+#cat-gif {
+    display: block;
+    height: 350px;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+    font-size: 27px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    margin: auto;
+}
+
+button:hover {
+    background-color: rgb(70, 16, 231);
+    color: white;
+}
+
+#open-letter:hover {
+    background-color: rgb(19, 147, 227);
+    color: white;
+}
+
+#rhys {
+    height: 350px;
+}
+
+.frame-two {
+    display: none;
+}
+
+.frame-three {
+    display: none;
+}
+
+#confetti {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("photos/confetti2.gif");
+    z-index: -1;
+    display: none;
+}
+
+#letter-notif {
+    z-index: 1;
+    background-color:rgb(95, 158, 160, 0.8);
+    display: none;
+    backdrop-filter: blur(3px);
+}
+
+#letter-img {
+    height: 100px;
+}
+
+#letter-text {
+    max-width: max-content;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    #card {
+        max-width: 99%;
+    }
+
+    #cat-gif {
+        height: 250px;
+    }
+
+    button {
+        font-size: 19px;
+        padding: 3px;
+    }
+}
