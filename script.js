@@ -1,7 +1,7 @@
 let wowBtn = document.querySelector("#wow-button");
-let sound = new Audio("Happy-Birthday/photos/notif.wav");
+let sound = new Audio("photos/notif.wav");
 sound.volume = 0.5;
-let music = new Audio("Happy-Birthday/photos/Usher_and_PitBull_-_Dj_got_us_falling_in_love_agai_(mp3.pm).mp3")
+let music = new Audio("photos/Usher_and_PitBull_-_Dj_got_us_falling_in_love_agai_(mp3.pm).mp3")
 music.volume = 0.1;
 
 wowBtn.addEventListener("click", () => {
@@ -42,3 +42,4 @@ document.querySelector("#back-to-rhys").addEventListener("click", () => {
     })
 
 })
+
